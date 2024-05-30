@@ -148,8 +148,8 @@ header {
 }
 
 .btn {
+  font-family: inherit;
   border-radius: 10px;
-  border: none;
   color: #fff;
   font-size: 22px;
   font-weight: 500;
@@ -158,6 +158,8 @@ header {
 
 .primary-btn {
   display: flex;
+  border: none;
+
   gap: 18px;
   align-items: center;
   background-color: #d40d1f;
