@@ -43,7 +43,7 @@ ol {
 }
 
 header {
-  margin-top: 70px;
+  margin-top: 42px;
   margin-bottom: 115px;
 }
 
@@ -95,7 +95,7 @@ header {
 }
 
 .genres-container {
-  margin-bottom: 40px;
+  margin-bottom: 26px;
 }
 
 .genres {
@@ -113,12 +113,21 @@ header {
   padding-right: 22px;
 }
 
+h1 {
+  font-size: 64px;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 3.52px;
+
+  margin-bottom: 34px;
+}
+
 .info {
   font-size: 29px;
   font-weight: 400;
   line-height: normal;
 
-  margin-bottom: 40px;
+  margin-bottom: 19px;
 }
 
 .info-gray {
@@ -131,7 +140,7 @@ header {
   font-weight: 400;
   line-height: 141.523%; /* 33.965px */
 
-  margin-bottom: 38px;
+  margin-bottom: 28px;
 }
 
 .raiting {
@@ -145,6 +154,8 @@ header {
 .buttons-list {
   display: flex;
   gap: 50px;
+
+  margin-bottom: 54px;
 }
 
 .btn {
@@ -174,4 +185,28 @@ header {
   border: 3px solid #fff;
 
   padding: 16px 58px;
+}
+
+.popular-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 144.523%; /* 31.795px */
+  letter-spacing: 2.97px;
+}
+
+.slider-arrows {
+  display: flex;
+  gap: 24px;
+}
+
+.popular-list {
+  display: flex;
+  gap: 40px;
 }
