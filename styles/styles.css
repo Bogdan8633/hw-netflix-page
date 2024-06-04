@@ -80,12 +80,14 @@ header {
 .right-side-header {
   display: flex;
   align-items: center;
+  gap: 45px;
 }
 
 .search-btn {
   background-color: transparent;
   border: none;
   margin-right: 16px;
+  color: #fff;
 }
 
 .search-icon {
@@ -150,6 +152,14 @@ h1 {
   gap: 14px;
 
   margin-bottom: 55px;
+}
+
+.star-item {
+  color: #ffea2b;
+}
+
+.star-item_non-active {
+  color: #fff;
 }
 
 .buttons-list {
