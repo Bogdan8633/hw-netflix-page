@@ -278,8 +278,8 @@ h2 {
 
 .age-restrictions {
   position: fixed;
-  left: auto;
-  right: 0;
+  right: 0px;
+  bottom: 100px;
   font-weight: 500;
   line-height: 141.523%; /* 33.965px */
 
